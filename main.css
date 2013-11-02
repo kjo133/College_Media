@@ -1,0 +1,124 @@
+﻿html {
+    background-color: #eeeeee;
+    /*background-image: linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -o-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);
+    background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 18%, rgb(153,153,153) 59%, rgb(238,238,238) 80%);*/
+}
+
+/*STYLE FOR BODY*/
+body {
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 1000px;
+    min-width: 1000px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333333;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4); 
+    
+}
+
+/*HEADERS
+h1, h2, h3, h4, h5, h6 {
+    line-height: 50px;
+    width: 150px;
+}
+*/
+
+/*STYLES FOR TOP MENU */
+ul{
+    float: right;
+    width: 600px;
+    padding: 0px;
+    margin-top:30px;
+    margin-right:40px;
+    list-style-type: none;
+}
+a
+{
+    float:right;
+    width:130px;
+    font-size:13px;
+    text-align:center;
+    text-decoration:none;
+    color:#B1B1B1;
+    padding:0.2em 0.6em;
+    border-bottom:thin solid #B1B1B1;
+}
+a:hover {
+    color: black;
+    border-bottom: thin solid black;
+}
+li {
+    display:inline;
+}
+
+#logo{
+    
+ margin-left:40px;   
+}
+
+#mainPicture{
+    width:100%;
+    border-radius:25px;
+}
+
+/*WELCOME BOX*/
+#welcome{
+    position:relative;
+    margin-top: -20px;
+    height: 300px;  
+}
+
+#welcome h1{
+    position:absolute;
+    left: 26%; 
+    top: 50px;
+    color:#6CC916;
+}
+
+#welcome h2{
+    position:absolute;
+    color:#64615D;
+    top:100px;
+    left: 13%;
+}
+
+#welcome h4{
+    position:absolute;
+    top: 115px;
+    left: 37%;
+    color: #ECEBEB;
+}
+
+#welcome h3{
+    position:absolute;
+    top: 145px;
+    left:22%;
+    width: 59%;
+    text-align:center;
+    font-size: 14px;
+    color:#B6B7B5;
+}
+
+#welcome #twitter{
+    position:absolute;
+    top: 245px;
+    left: 50%;   
+}
+
+#welcome #facebook{
+    position: absolute;
+    top: 245px;
+    left:40%;
+    
+}
+
+
+
